@@ -21,4 +21,4 @@ jobs:
         run: aws sts get-caller-identity
 
       - name: Consigo ver meu repositório ECR?
-        run: aws ecr describe-repositories --repository-names order-service
+        run: aws ecr describe-repositories --repository-names node-order-service
