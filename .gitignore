@@ -1,0 +1,17 @@
+# Dependências — geradas por npm install, nunca versionadas
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Variáveis de ambiente (podem conter secrets)
+.env
+.env.local
+
+# Sistema operacional
+.DS_Store
+
+# Editores
+.vscode/
+.idea/
