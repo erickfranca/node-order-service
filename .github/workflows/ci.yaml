@@ -17,3 +17,12 @@ jobs:
     with:
       service_name: node-order-service
       role_arn: ${{ vars.ROLE_ARN }}
+
+  update-manifests:
+    needs: build
+    uses: erickfranca/shared-workflows/.github/workflows/update-manifests.yml@main
+    with:
+      service_name: node-order-service
+      image_tag: ${{ needs.build.outputs.image_tag }}
+    secrets:
+      MANIFESTS_REPO_PAT: ${{ secrets.MANIFESTS_REPO_PAT }}
