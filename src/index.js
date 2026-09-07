@@ -5,7 +5,7 @@ const app = express();
 app.use(express.json());
 
 const PORT = process.env.PORT || 3001;
-const SERVICE_NAME = process.env.SERVICE_NAME || 'order-service';
+const SERVICE_NAME = process.env.SERVICE_NAME || 'node-order-service';
 
 // Endereços dos serviços downstream.
 // Em Kubernetes viram os DNS internos: http://payment-service.payment-service.svc.cluster.local:3002
