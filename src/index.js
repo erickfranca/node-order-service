@@ -1,5 +1,5 @@
-import express from 'express';
-import { randomUUID } from 'node:crypto';
+const express = require('express');
+const { randomUUID } = require('node:crypto');
 
 const app = express();
 app.use(express.json());

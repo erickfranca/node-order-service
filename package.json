@@ -2,7 +2,6 @@
   "name": "order-service",
   "version": "1.0.0",
   "description": "Entry point of the e-commerce chain. Orchestrates payment and shipping.",
-  "type": "module",
   "main": "src/index.js",
   "engines": {
     "node": ">=24.0.0"
