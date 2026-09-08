@@ -1,5 +1,5 @@
 {
-  "name": "order-service",
+  "name": "node-order-service",
   "version": "1.0.0",
   "description": "Entry point of the e-commerce chain. Orchestrates payment and shipping.",
   "main": "src/index.js",
